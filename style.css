@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+
+body{ background-image:linear-gradient( 60deg, #340058eb, #3f009ac5, #340058eb) ;
+  color: #ffffffdb;
+  font-family: Sans-Serif;
+  font-size: 1em;
+  text-align: center;
+  
+
+}
+
+
+a{
+  color: #0092ff;
+}
+
+h1#principal{
+  color: #0092ff;
+  
+}
+
+.segundo{
+  color: red;
+}
+.descricao{
+  text-align: justify;
+ font-style: italic;
+ font-size: 18px;
+  
+}
+div:hover{
+  color: black; 
+}
+
+
+div > p{
+  display: none;
+}
+div:hover >p{
+  display: block;
+  color: blue;
+}
+.link{
+  div:hover{
+    color: #57b2ff;
+  }
+  div > p{
+    display: none;
+  }
+  div > p{
+    display: block
+    color blue;
+  }
+  
+}
+
+button{
+  color: black;
+  background-color: #ffffff; 
+  
+}
+
+div{
+  display: inline-block;
+}
+
+.caixa{
+  padding-left: 20px;
+  padding-right: 20px;
+}
